@@ -1,4 +1,4 @@
-
+.
         #map {
             background-color: #d3c35e
         }
@@ -197,3 +197,8 @@
         .leaflet-control-layers-expanded .leaflet-control-layers-toggle {
             display: none;
         }
+/* Oculta por completo el título del mapa */
+.leaflet-control-title, 
+h1 {
+    display: none !important;
+}
